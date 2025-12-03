@@ -2,6 +2,10 @@
   "name": "claude-marketplace-test",
   "description": "A sample Claude Code marketplace for testing and demonstration",
   "version": "1.0.0",
+  "owner": {
+    "name": "Mikhail Yohman",
+    "email": "na@gmail.com",
+  },
   "plugins": [
     {
       "name": "sample-plugin",
@@ -10,8 +14,10 @@
     },
     {
       "name": "hackathon-sample-plugin",
-      "source": "github",
-      "repo": "FragmentedPacket/claude-sample-plugin",
+      "source": {
+        "source": "github",
+        "repo": "FragmentedPacket/claude-sample-plugin"
+      },
       "description": "This can be a teams' plugin or separated as different products or personas"
     }
   ]
