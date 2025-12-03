@@ -1,0 +1,12 @@
+{
+  "name": "claude-marketplace-test",
+  "description": "A sample Claude Code marketplace for testing and demonstration",
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "sample-plugin",
+      "source": "./sample-plugin",
+      "description": "A sample plugin demonstrating the Claude marketplace structure"
+    }
+  ]
+}
