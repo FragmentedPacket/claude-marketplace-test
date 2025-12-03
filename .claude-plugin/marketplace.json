@@ -7,6 +7,10 @@
       "name": "sample-plugin",
       "source": "./sample-plugin",
       "description": "A sample plugin demonstrating the Claude marketplace structure"
-    }
+    },
+    {
+      "name": "git-sample-plugin",
+      "source": "FragmentedPacket/claude-sample-plugin",
+      "description": "This can be a teams' plugin or separated as different products or personas"
   ]
 }
