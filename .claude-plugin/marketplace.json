@@ -12,5 +12,6 @@
       "name": "git-sample-plugin",
       "source": "FragmentedPacket/claude-sample-plugin",
       "description": "This can be a teams' plugin or separated as different products or personas"
+    }
   ]
 }
