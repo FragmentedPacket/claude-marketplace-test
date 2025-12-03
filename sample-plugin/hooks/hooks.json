@@ -1,0 +1,10 @@
+{
+  "hooks": [
+    {
+      "name": "on-init",
+      "event": "init",
+      "description": "Hook that runs when the plugin is initialized",
+      "script": "./scripts/on-init.sh"
+    }
+  ]
+}
