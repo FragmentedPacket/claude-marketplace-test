@@ -1,1 +1,15 @@
-{\n  "version": "1.0.0",\n  "hooks": {\n    "on-init": {\n      "event": "init",\n      "description": "Hook that runs when the plugin is initialized",\n      "run": {\n        "type": "shell",\n        "path": "./scripts/on-init.sh",\n        "timeout_seconds": 30,\n        "env": {}\n      }\n    }\n  }\n}
+{
+  "version": "1.0.0",
+  "hooks": {
+    "on-init": {
+      "event": "init",
+      "description": "Hook that runs when the plugin is initialized",
+      "run": {
+        "type": "shell",
+        "path": "./scripts/on-init.sh",
+        "timeout_seconds": 30,
+        "env": {}
+      }
+    }
+  }
+}
