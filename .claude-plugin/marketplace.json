@@ -15,7 +15,7 @@
     {
       "name": "hackathon-sample-plugin",
       "source": {
-        "source": "github",
+        "type": "github",
         "repo": "FragmentedPacket/claude-sample-plugin"
       },
       "description": "This can be a teams' plugin or separated as different products or personas"
