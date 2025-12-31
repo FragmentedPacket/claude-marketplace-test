@@ -1,23 +1,13 @@
-# claude-marketplace-test
+# opsmill-claude-marketplace
 
-A sample Claude Code marketplace repository demonstrating the required folder structure.
+This marketplace is used to distribute OpsMill related Claude Code plugins.
 
 ## Marketplace Structure
 
 ```
-claude-marketplace-test/
+opsmill-claude-marketplace/
 ├── .claude-plugin/
 │   └── marketplace.json     # Marketplace catalog/manifest (REQUIRED)
-├── sample-plugin/           # Each plugin is a separate subdirectory
-│   ├── .claude-plugin/
-│   │   └── plugin.json      # Plugin manifest (REQUIRED)
-│   ├── README.md            # Documentation (RECOMMENDED)
-│   ├── LICENSE              # License file (RECOMMENDED)
-│   ├── commands/            # User-invoked slash commands
-│   ├── agents/              # Specialized agents
-│   ├── skills/              # Agent skills (SKILL.md)
-│   ├── hooks/               # Lifecycle/event hooks
-│   └── scripts/             # Utility scripts
 └── README.md                # This file
 ```
 

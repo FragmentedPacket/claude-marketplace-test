@@ -1,24 +1,20 @@
 {
-  "name": "claude-marketplace-test",
-  "description": "A sample Claude Code marketplace for testing and demonstration",
+  "name": "opsmill-claude-marketplace",
+  "description": "OpsMill's Claude Marketplace",
   "version": "1.0.0",
   "owner": {
-    "name": "Mikhail Yohman",
-    "email": "na@gmail.com"
+    "name": "Solution Engineering and Architecture",
+    "email": "customer-success@opsmill.com"
   },
   "plugins": [
     {
-      "name": "sample-plugin",
-      "source": "./sample-plugin",
-      "description": "A sample plugin demonstrating the Claude marketplace structure"
-    },
-    {
-      "name": "hackathon-sample-plugin",
+      "name": "infrahub",
       "source": {
         "source": "github",
-        "repo": "FragmentedPacket/claude-sample-plugin"
+        "repo": "opsmill/infrahub-claude-plugin",
+        "ref": "main"
       },
-      "description": "This can be a teams' plugin or separated as different products or personas"
+      "description": "Plugin to assist in developing on top of Infrahub."
     }
   ]
 }
